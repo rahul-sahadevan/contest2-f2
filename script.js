@@ -40,7 +40,7 @@ formEvent.addEventListener("submit",(event) => {
     const div = document.createElement("div");
     const edit = document.createElement("img");
     edit.className = "edit";
-    edit.src = "edit.svg";
+    edit.src = "edit 1.svg";
 
 
     const del = document.createElement("img");
