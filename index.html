@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest-2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>Student Management CURD</h2>
+    <!-- form for input data -->
+    <form id="form">
+        <input type="text" value="Name"  name="Name" required>
+        <input type="email" value="Email" name="email" required>
+        <input type="number" placeholder="Age" name="Age" required>
+        <input type="number" placeholder="GPA" name="GPA" required>
+        <input type="text" placeholder="Degree"  name="Degree"  required>
+        <br>
+        <br>
+        <button id="add">Add Student</button>
+    </form>
+
+    <br>
+    <br>
+    <input type="text" id="search" class="search-bar" placeholder="Search By Name, Email, Degree" name = "value">
+    <!-- table for the search output -->
+    <table id="new_table" class="table-2" border="1px"></table>
+    <!-- table to add data -->
+    <table id="table" border="solid">
+        <tr>
+            <th>ID</th>
+            <th>Student Name</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>GPA</th>
+            <th>Degree </th>
+        </tr>
+       
+    </table>
+    <script src="./script.js"></script>
+</body>
+</html>
